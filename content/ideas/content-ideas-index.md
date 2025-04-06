@@ -14,7 +14,7 @@
 ## Content Ideas by Category
 
 ### Marketing
-1. 🛍️ استراتيجيات التسويق عبر المحتوى التفاعلي (Not Started - 2024-04-11)
+1. 🛍️ استراتيجيات التسويق عبر المحتوى التفاعلي (Published - 2024-04-06)
 2. 📱 استراتيجيات التسويق عبر تطبيقات الموبايل (Not Started - 2024-04-11)
 3. 🎥 استراتيجيات التسويق عبر المحتوى المرئي (Not Started - 2024-04-11)
 4. 🌐 التسويق عبر المحتوى للمتاجر الإلكترونية (Not Started - 2024-04-11)
@@ -76,10 +76,10 @@
 - Total Ideas: 21
 - High Priority Ideas: 21
 - Ideas In Progress: 0
-- Ideas Not Started: 2
-- Ideas Published: 19
+- Ideas Not Started: 1
+- Ideas Published: 20
 - Ideas by Category:
-  - Marketing: 8 (3 Published)
+  - Marketing: 8 (4 Published)
   - Technical: 6 (3 Published)
   - Strategy: 6 (6 Published)
   - Operations: 1 (1 Published)
