@@ -78,7 +78,7 @@
 ## New Content Ideas
 
 ### 7. 💳 تحسين عمليات استرداد الأموال والمرتجعات
-- Status: 🔴 Not Started
+- Status: 🟢 Published (2024-06-04)
 - Priority: ⭐
 - Category: operations
 - Key Points:
@@ -89,7 +89,7 @@
 - Engagement Question: 💭 ما هي نسبة المرتجعات في متجرك؟ وكيف تستفيد منها في تحسين أعمالك؟
 
 ### 8. 🛍️ استراتيجيات البيع المتقاطع والبيع الإضافي
-- Status: 🔴 Not Started
+- Status: 🟢 Published (2024-06-04)
 - Priority: ⭐
 - Category: marketing
 - Key Points:
