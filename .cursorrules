@@ -1,0 +1,202 @@
+# Telegram Content Generation Rules for E-commerce Community
+
+## Content Structure Rules
+
+1. Title Format:
+   - Must include relevant emoji at start (🔍, 💡, ⚡️, 📈, etc.)
+   - Should be attention-grabbing and benefit-focused
+   - Keep it concise (5-7 words max)
+
+2. Content Sections:
+   - Problem/Challenge (🔍)
+   - Solution/Implementation (💡)
+   - Results/Outcomes (📈)
+   - Engagement Question (💭)
+
+3. Formatting:
+   - Use emojis as section markers
+   - Implement bullet points (•) for lists
+   - Include data points and statistics
+   - Break content into digestible chunks
+
+## Writing Style Guidelines
+
+1. Tone:
+   - Professional yet conversational
+   - Solution-oriented
+   - Data-driven
+   - Actionable advice-focused
+
+2. Language:
+   - Clear, concise Arabic
+   - Use industry-specific terminology
+   - Include relevant numbers and percentages
+   - Maintain formal yet approachable language
+
+3. Engagement Elements:
+   - End with thought-provoking questions
+   - Use 💭 or ❓ for engagement prompts
+   - Encourage community interaction
+   - Create discussion opportunities
+
+## Content Categories
+
+1. E-commerce Operations:
+   - Inventory management
+   - Order fulfillment
+   - Customer service
+   - Platform optimization
+
+2. Marketing & Sales:
+   - Conversion optimization
+   - Digital advertising
+   - Social media strategy
+   - Email marketing
+
+3. Technical Aspects:
+   - Website performance
+   - Mobile optimization
+   - Payment solutions
+   - Security measures
+
+4. Business Strategy:
+   - Pricing strategies
+   - Growth hacking
+   - Customer retention
+   - Market analysis
+
+## Content Templates
+
+1. Problem-Solution Template:
+```
+🔍 [Problem Statement]
+• Current situation
+• Key challenges
+• Impact on business
+
+💡 [Solution]
+• Step-by-step approach
+• Implementation tips
+• Best practices
+
+📈 [Results]
+• Expected outcomes
+• Measurable improvements
+• Success metrics
+
+💭 [Engagement Question]
+```
+
+2. Guide Template:
+```
+📚 [Guide Title]
+
+⚡️ Key Points:
+• Point 1
+• Point 2
+• Point 3
+
+🔑 Implementation Steps:
+1. Step 1
+2. Step 2
+3. Step 3
+
+💡 Pro Tips:
+• Tip 1
+• Tip 2
+• Tip 3
+
+❓ [Engagement Question]
+```
+
+## Quality Checklist
+
+1. Content Requirements:
+   - [ ] Includes relevant emojis
+   - [ ] Clear section breaks
+   - [ ] Actionable advice
+   - [ ] Data points/statistics
+   - [ ] Engagement question
+   - [ ] Proper formatting
+
+2. Style Requirements:
+   - [ ] Professional tone
+   - [ ] Clear Arabic language
+   - [ ] Concise messaging
+   - [ ] Value-focused content
+   - [ ] Community engagement elements
+
+## Content Themes
+
+1. Seasonal Content:
+   - Ramadan preparation
+   - Holiday sales
+   - Special occasions
+   - Peak shopping periods
+
+2. Educational Content:
+   - How-to guides
+   - Best practices
+   - Case studies
+   - Industry insights
+
+3. Community Building:
+   - Success stories
+   - Challenges
+   - Tips sharing
+   - Q&A sessions
+
+## Engagement Rules
+
+1. Question Format:
+   - Start with 💭 or ❓
+   - Make it specific to the topic
+   - Encourage detailed responses
+   - Focus on practical experiences
+
+2. Response Handling:
+   - Acknowledge all responses
+   - Provide additional value
+   - Keep discussion focused
+   - Build on community insights
+
+## Content Calendar Themes
+
+1. Weekly Themes:
+   - Monday: Operations & Efficiency
+   - Tuesday: Marketing & Sales
+   - Wednesday: Technical Tips
+   - Thursday: Strategy & Growth
+   - Friday: Community Success Stories
+   - Weekend: Case Studies & Deep Dives
+
+2. Monthly Focus:
+   - Week 1: Planning & Strategy
+   - Week 2: Implementation & Execution
+   - Week 3: Optimization & Improvement
+   - Week 4: Review & Results
+
+## Content Ideas Management
+
+1. Storage Location:
+   - All content ideas should be stored in `content-ideas.md`
+   - Each idea should follow the standard content structure
+   - Ideas should be categorized by topic and priority
+
+2. Idea Organization:
+   - Use clear numbering for each idea
+   - Include relevant emojis in titles
+   - Maintain consistent formatting
+   - Add implementation status if applicable
+
+3. Content Calendar Integration:
+   - Link ideas to weekly themes
+   - Assign priority levels
+   - Note seasonal relevance
+   - Track publication status
+
+4. Review Process:
+   - Regular review of content ideas
+   - Update based on performance
+   - Remove outdated content
+   - Add new ideas based on trends
