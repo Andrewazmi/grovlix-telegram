@@ -19,6 +19,33 @@
    - Include data points and statistics
    - Break content into digestible chunks
 
+## Telegram-Specific Formatting Rules
+
+1. Supported Formatting:
+   - **Bold text**: Use double asterisks (**text**)
+   - _Italic text_: Use single underscores (_text_)
+   - `Monospace text`: Use backticks (`text`)
+   - ~~Strikethrough~~: Use double tildes (~~text~~)
+   - ||Spoiler||: Use double pipes (||text||)
+   - [Hyperlinks](URL): Use square brackets and parentheses ([text](URL))
+
+2. Section Headers:
+   - Do NOT use Markdown heading syntax (# or ##) as Telegram doesn't support it
+   - Instead, use **bold text** with emojis for section headers
+   - Example: **🔍 المشكلة** instead of ## 🔍 المشكلة
+
+3. Content Structure:
+   - Use blank lines between sections for better readability
+   - Keep paragraphs short (2-3 lines maximum)
+   - Use bullet points (•) for lists
+   - Highlight important statistics with **bold** formatting
+   - Format technical terms and tool names with `monospace`
+
+4. Visual Hierarchy:
+   - Use emojis at the start of each section to create visual separation
+   - Bold section titles to distinguish them from content
+   - Use consistent formatting throughout the post
+
 ## Writing Style Guidelines
 
 1. Tone:
@@ -179,7 +206,7 @@
 ## Content Ideas Management
 
 1. Storage Location:
-   - All content ideas should be stored in `content-ideas.md`
+   - All content ideas should be stored in `content/ideas/content-ideas.md`
    - Each idea should follow the standard content structure
    - Ideas should be categorized by topic and priority
 
@@ -200,3 +227,193 @@
    - Update based on performance
    - Remove outdated content
    - Add new ideas based on trends
+
+## Content Storage System
+
+1. Directory Structure:
+   ```
+   content/
+   ├── ideas/
+   │   ├── YYYY-MM-DD-content-ideas.md
+   │   └── content-ideas-index.md
+   ├── posts/
+   │   ├── YYYY-MM/
+   │   │   ├── 01-operations/
+   │   │   ├── 02-marketing/
+   │   │   ├── 03-technical/
+   │   │   ├── 04-strategy/
+   │   │   └── 05-community/
+   │   └── templates/
+   └── assets/
+       ├── images/
+       └── files/
+   ```
+
+2. File Naming Convention:
+   - Format: `YYYY-MM-DD-title-slug.md`
+   - Example: `2024-04-06-conversion-rate-optimization.md`
+   - Use lowercase letters and hyphens for slugs
+   - Keep filenames descriptive but concise
+
+3. Content Organization Rules:
+   - Store all generated content in appropriate monthly category folders
+   - Use templates from `posts/templates/` for consistency
+   - Include engagement metrics in metadata
+   - Track content performance and status
+   - Archive outdated content in place (using status metadata)
+
+4. Version Control:
+   - Commit message format:
+     ```
+     [content]: YYYY-MM-DD Post Title
+
+     Why:
+     - Brief explanation of the content purpose
+
+     What:
+     - List of main points or changes
+     - Impact on business goals
+     ```
+   - Tag important content versions
+   - Use branches for content review process
+
+5. Content Generation Rules:
+   - When generating new content:
+     1. Create file in appropriate category folder
+     2. Include complete metadata
+     3. Follow content structure template
+     4. Mark as 🟢 Published in content-ideas.md
+     5. Move the content idea from "New Content Ideas" section
+     6. Update tracking metrics
+
+6. Content Review Process:
+   - Monthly performance review
+   - Update based on audience feedback
+   - Add new ideas based on trends
+   - Archive outdated content
+   - Maintain content calendar
+
+7. New Content Ideas Process:
+   - Add new ideas under "New Content Ideas" section in content-ideas.md
+   - Follow the standard format:
+     ```markdown
+     ### [Number]. [Emoji] [Title]
+     - Status: 🔴 Not Started
+     - Priority: ⭐
+     - Category: [category]
+     - Key Points:
+       - Point 1
+       - Point 2
+       - Point 3
+     - Engagement Question: 💭 [Question]
+     ```
+   - Update status when implemented
+   - Link to relevant weekly theme
+   - Add seasonal tags if applicable
+
+## Content Tracking System
+
+1. Status Legend:
+   - 🟢 Published: Content has been created and is ready for publication
+   - 🟡 In Progress: Content is being worked on
+   - 🔴 Not Started: New content idea, not yet implemented
+   - ⭐ High Priority: Content that should be prioritized
+   - 📅 Scheduled: Content planned for specific dates
+
+2. Content Metadata:
+   ```yaml
+   ---
+   title: "🔍 عنوان المحتوى"
+   date: "YYYY-MM-DD"
+   category: "operations|marketing|technical|strategy|community"
+   tags: ["tag1", "tag2", "tag3"]
+   status: "draft|review|published|archived"
+   engagement_metrics:
+     views: 0
+     replies: 0
+     shares: 0
+   ---
+   ```
+
+3. Content Status Tracking:
+   - Each content piece must be marked with its current status
+   - When content is generated:
+     1. Mark it as 🟢 Published
+     2. Move it from "New Content Ideas" section to the appropriate category section
+     3. Add publication date and category
+     4. Update any relevant tracking metrics
+   - Content ideas should be organized by category in the main content tracking section
+   - New ideas should always be added to the "New Content Ideas" section
+
+4. Performance Tracking:
+   - Track views, replies, and shares
+   - Monitor conversion rates
+   - Measure engagement rates
+   - Review performance monthly
+
+5. Content Calendar:
+   - Monday: Operations & Efficiency
+   - Tuesday: Marketing & Sales
+   - Wednesday: Technical Tips
+   - Thursday: Strategy & Growth
+   - Friday: Community Success Stories
+   - Weekend: Case Studies & Deep Dives
+
+## Content Generation Command Rules
+
+1. When the user requests to "generate content":
+   - First, check the content-ideas.md file for ideas with "Status: 🔴 Not Started"
+   - Prioritize ideas with "Priority: ⭐" if available
+   - If multiple "Not Started" ideas exist, select the one that best aligns with the current day's theme
+   - If no "Not Started" ideas exist, create a new content idea following the New Content Ideas Process
+
+2. Content Generation Workflow:
+   - Read the selected content idea's details (title, key points, engagement question)
+   - Create a new file in the appropriate category folder following the directory structure
+   - Follow the content structure template (Problem-Solution or Guide Template)
+   - Include complete metadata in the file header
+   - Update the status in content-ideas.md from "🔴 Not Started" to "🟡 In Progress"
+   - After content is approved, update status to "🟢 Published"
+
+3. Content Idea Selection Priority:
+   1. High priority (⭐) ideas with "Not Started" status
+   2. Ideas aligned with the current day's theme
+   3. Ideas aligned with the current week's focus
+   4. Ideas with seasonal relevance to the current month
+
+4. Content Generation Response Format:
+   - Confirm which content idea was selected and why
+   - Provide a brief summary of the content created
+   - Include the file path where the content was saved
+   - Mention the status update in content-ideas.md
+   - Ask if any adjustments are needed
+
+## Content Ideas Uniqueness and Organization Rules
+
+1. Content Idea Uniqueness:
+   - Each content idea must be unique and not overlap with existing ideas
+   - Before adding a new idea, check for similar topics in published and in-progress content
+   - If a similar idea exists, either:
+     - Enhance the existing idea with additional points
+     - Refocus the new idea to cover a different aspect
+     - Combine both ideas into a more comprehensive piece
+   - Regularly review and remove duplicate or redundant ideas
+
+2. Daily Content Ideas Organization:
+   - Create a new content ideas file for each day: `content/ideas/YYYY-MM-DD-content-ideas.md`
+   - Each daily file should contain:
+     - Ideas created on that specific day
+     - Ideas scheduled for that day
+     - Ideas in progress for that day
+   - Maintain a master index file: `content/ideas/content-ideas-index.md` that:
+     - Links to all daily content idea files
+     - Provides a summary of all ideas by category
+     - Tracks the status of all ideas across days
+   - When generating content, check both the daily file and the master index
+
+3. Content Idea Review Process:
+   - At the end of each week, review all content ideas from that week
+   - Remove any redundant or overlapping ideas
+   - Update the status of all ideas
+   - Archive completed ideas to a monthly summary file
+   - Ensure all unique ideas are properly categorized and prioritized
